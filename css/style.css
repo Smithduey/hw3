@@ -145,7 +145,7 @@ div {
 first div in the grid  and place it in the grid. */
 main div:first-child{
   grid-column: 1/span 5;
-  /*background-image: url('/images/header.jpg');*/
+  background-image: url('/images/header.jpg');
   background-color: #cccccc;
   background-attachment: fixed; /* Parallax effect */
   background-position: center;  /* Parallax effect */
@@ -153,9 +153,7 @@ main div:first-child{
   background-size: cover;       /* Parallax effect */
 }
 
-.overview{
-  background-image: url('/images/header.jpg');
-}
+
 /* Steps 6 and 7: Write the selector/rule properties to add place the next elements in the next
  four rows in the grid. */
 
