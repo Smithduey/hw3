@@ -145,7 +145,7 @@ div {
 first div in the grid  and place it in the grid. */
 main div:first-child{
   grid-column: 1/span 5;
-  background-image: url('/images/header.jpg');
+  background-image: url('/css/header.jpg');
   background-color: #cccccc;
   background-attachment: fixed; /* Parallax effect */
   background-position: center;  /* Parallax effect */
